@@ -26,4 +26,7 @@ node {
 		}
 
 	}
+	stage('Deploy image'){
+		docker pull hubrajesh/ngdemo
+		docker run -itd hubrajesh/("${env.BUILD_NUMBER}")
 }
