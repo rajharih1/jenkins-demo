@@ -5,3 +5,4 @@ node {
 		/* Clone the repository to our workspace*/
 		checkout scm
 	}
+}
